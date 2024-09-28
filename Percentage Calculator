@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class PercentageCalculator {
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the marks of physics");
+        int physics=sc.nextInt();
+        System.out.println("enter the marks of chemistry");
+        int chemistry=sc.nextInt();
+        System.out.println("enter the marks of hindi");
+        int hindi=sc.nextInt();
+        System.out.println("enter the marks of maths");
+        int maths=sc.nextInt();
+        System.out.println("enetr the marks of english");
+        int english=sc.nextInt();
+
+float percentage=((physics+chemistry+hindi+maths+english)/500*100);
+System.out.println("percentage");
+System.out.println(percentage);
+
+
+    }
+}
